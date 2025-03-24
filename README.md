@@ -24,4 +24,5 @@ HOW TO USE IT?*
    - By default, tap detection is implemented through **continuous polling** of flags.  
    - If you prefer **interrupt-based** detection:  
      - Enable **interrupt settings** in the configurator.  
-     - No additional code changes are required—the necessary APIs are already implemented and tested.  
+     - No additional code changes are required—the necessary APIs are already implemented and tested.
+5. You can take reference from the examples provided in the Test_codes folder.
