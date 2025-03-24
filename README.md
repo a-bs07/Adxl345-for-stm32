@@ -10,7 +10,7 @@ HOW TO USE IT?*
    - *(Note: If you're using I2C1, no changes are needed.)*  
 
 2. Configure the UART Instance for Logging:
-   - The default UART instance used is **UART2**.  
+   - The default UART instance used is **UART2**(PA2 and PA15 as TX and RX).  
    - To use a different UART instance:  
      - Update the configuration settings.  
      - Modify `extern UART_HandleTypeDef huart2;` in `adxl_app.c`.  
